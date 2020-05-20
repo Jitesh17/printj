@@ -12,33 +12,33 @@ Print log info and color text, speak text and helps debugging
 
 ## Installation:
 ### Method 1
-- 
 
-    ```
-    pip install https://github.com/jitesh17/printj/archive/master.zip
-    ```
+```console
+pip install https://github.com/jitesh17/printj/archive/master.zip
+```
 
 ### Method 2
-- 
 
-    ```
-    git clone https://github.com/jitesh17/printj.git
-    cd prinj
-    ./build_package.sh
-    pip install -e .
-    ```
+```console
+git clone https://github.com/jitesh17/printj.git
+cd prinj
+./build_package.sh
+pip install -e .
+```
 
 
 ## How to use
-- 
 
-    ```
+- Script
+    ```python
     import printj
 
     printj.red('YOUR TEXT')
     printj.bold('YOUR TEXT')
     printj.blue.italic_on_yellow('YOUR TEXT')
     ```
+- Output
+    ![](https://i.imgur.com/zaRgPU3.png)
 
  
 
