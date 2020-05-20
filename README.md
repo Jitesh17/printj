@@ -22,7 +22,6 @@ pip install https://github.com/jitesh17/printj/archive/master.zip
 ```console
 git clone https://github.com/jitesh17/printj.git
 cd prinj
-./build_package.sh
 pip install -e .
 ```
 
@@ -38,6 +37,7 @@ pip install -e .
     printj.blue.italic_on_yellow('YOUR TEXT')
     ```
 - Output
+    
     ![](https://i.imgur.com/zaRgPU3.png)
 
  
