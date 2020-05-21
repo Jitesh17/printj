@@ -11,13 +11,19 @@ Print log info and color text, speak text and helps debugging.
 
 
 ## Installation
-### Method 1
+### Method 1: Pip install
+
+```python
+pip install printj
+```
+
+### Method 2
 
 ```python
 pip install https://github.com/jitesh17/printj/archive/master.zip
 ```
 
-### Method 2
+### Method 3: Git clone
 
 ```python
 git clone https://github.com/jitesh17/printj.git
@@ -41,11 +47,3 @@ pip install -e .
     ![](https://i.imgur.com/zaRgPU3.png)
 
  
-
-## Appendix and FAQ
-
-:::info
-**Find this document incomplete?** Leave a comment!
-:::
-
-{%hackmd theme-dark %}
