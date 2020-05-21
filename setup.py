@@ -10,13 +10,14 @@ with open("README.md", "r") as fh:
 
 setup(
     name= "printj",
-    version="1.0",
+    version="0.0.1",
     author="Jitesh Gosar",
     author_email="gosar95@gmail.com",
     description="Print log info and color text, speak text and helps debugging",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Jitesh17/printj",
+    py_modules=["printj"],
     packages=packages,
     classifiers=[
         "Programming Language :: Python :: 3",

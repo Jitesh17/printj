@@ -6,27 +6,27 @@
 
 
 
-Print log info and color text, speak text and helps debugging
+Print log info and color text, speak text and helps debugging.
 
 
 
-## Installation:
+## Installation
 ### Method 1
 
-```console
+```python
 pip install https://github.com/jitesh17/printj/archive/master.zip
 ```
 
 ### Method 2
 
-```console
+```python
 git clone https://github.com/jitesh17/printj.git
 cd prinj
 pip install -e .
 ```
 
 
-## How to use
+## Usage
 
 - Script
     ```python
@@ -47,3 +47,5 @@ pip install -e .
 :::info
 **Find this document incomplete?** Leave a comment!
 :::
+
+{%hackmd theme-dark %}
