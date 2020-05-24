@@ -10,7 +10,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name= "printj",
-    version="0.0.1",
+    version="0.0.2",
     author="Jitesh Gosar",
     author_email="gosar95@gmail.com",
     description="Print log info and color text, speak text and helps debugging",

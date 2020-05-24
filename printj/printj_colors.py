@@ -1,11 +1,18 @@
 #!/usr/bin/python3
 from printj.lib import Template
 import os
+from functools import partial
+
 
 
 class say:
     def __init__(self, text):
         os.system(f'spd-say "  {text} "')
+
+
+class clear:
+    def __init__(self):
+        os.system('clear')
 
 
 class bold:
@@ -16,10 +23,15 @@ class bold:
 
 
 class italic:
-    # color = 'red'
 
     def __init__(self, text):
         print(Template.stylish_text(text=text, style='italic'))
+
+
+class underline:
+
+    def __init__(self, text):
+        print(Template.stylish_text(text=text, style='underline'))
 
 
 class ColorPrint:
@@ -200,4 +212,7 @@ if __name__ == "__main__":
     red.on_green('Error, does not compute!')
     white.bold_on_green('Error, does not compute!')
     blue.on_green('Error, does not compute!')
+    clear()
     red(Template.stylish_text(text='Error, does not compute!', style='bold'))
+    underline(Template.stylish_text(text='Error, does not compute!', style='bold'))
+    

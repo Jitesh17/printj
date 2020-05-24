@@ -34,12 +34,12 @@ for color in code:
 class Template:
     @staticmethod
     def highlight_text( text='fill a text', style='normal', front='blue', back='yellow'):
-        return CSI + stl[style] + ';' + fg[front] + ';' + bg[back] + 'm' + text + CEND
+        return CSI + stl[style] + ';' + fg[front] + ';' + bg[back] + 'm' + str(text) + CEND
     
     @staticmethod
     def color_text(text='fill a text', style='normal', front='blue', back='yellow'):
-        return '\33[3' + code[front] + 'm' + text + CEND
+        return '\33[3' + code[front] + 'm' + str(text) + CEND
     
     @staticmethod
     def stylish_text(text='fill a text', style='normal', front='blue', back='yellow'):
-        return'\33[' + stl[style] + 'm' + text + CEND
+        return'\33[' + stl[style] + 'm' + str(text) + CEND
