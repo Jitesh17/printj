@@ -204,6 +204,39 @@ class white(ColorPrint):
         super().__init__(text)
 
 
+class ColorText:
+    @staticmethod
+    def black(text: str):
+        return Template.color_text(text=text, front='black')
+
+    @staticmethod
+    def red(text: str):
+        return Template.color_text(text=text, front='red')
+
+    @staticmethod
+    def green(text: str):
+        return Template.color_text(text=text, front='green')
+
+    @staticmethod
+    def yellow(text: str):
+        return Template.color_text(text=text, front='yellow')
+
+    @staticmethod
+    def blue(text: str):
+        return Template.color_text(text=text, front='blue')
+
+    @staticmethod
+    def purple(text: str):
+        return Template.color_text(text=text, front='purple')
+
+    @staticmethod
+    def cyan(text: str):
+        return Template.color_text(text=text, front='cyan')
+
+    @staticmethod
+    def white(text: str):
+        return Template.color_text(text=text, front='white')
+
 if __name__ == "__main__":
     red('Error, does not compute!')
     blue('Error, does not compute!')
@@ -215,4 +248,5 @@ if __name__ == "__main__":
     clear()
     red(Template.stylish_text(text='Error, does not compute!', style='bold'))
     underline(Template.stylish_text(text='Error, does not compute!', style='bold'))
-    
+    print(f"{ColorText.cyan('cyan!')}{ColorText.blue('blue!')}")
+    print(Template.color_text(text='Erute!', front='cyan'))
