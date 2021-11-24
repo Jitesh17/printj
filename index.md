@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+# printj
 
-You can use the [editor on GitHub](https://github.com/Jitesh17/printj/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[![Python: 3.6](https://img.shields.io/badge/Python-3.6-blue.svg)](#)
+[![Build Status](https://travis-ci.org/GeorgiosGoniotakis/python-hierarchy.svg?branch=master)](https://github.com/Jitesh17/printj)
+[![license: MIT](https://img.shields.io/badge/license-MIT-orange.svg)](https://opensource.org/licenses/MIT)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Print log info and color text, speak text and helps debugging.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Installation
+### Method 1: Pip install
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```python
+pip install printj
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Method 2
 
-### Jekyll Themes
+```python
+pip install https://github.com/jitesh17/printj/archive/master.zip
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jitesh17/printj/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Method 3: Git clone
 
-### Support or Contact
+```python
+git clone https://github.com/jitesh17/printj.git
+cd prinj
+pip install -e .
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+## Usage
+
+- Script
+    ```python
+    import printj
+
+    printj.red('YOUR TEXT')
+    printj.bold('YOUR TEXT')
+    printj.blue.italic_on_yellow('YOUR TEXT')
+    ```
+- Output
+    
+    ![](https://i.imgur.com/zaRgPU3.png)
+
+ 
