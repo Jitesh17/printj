@@ -1,7 +1,7 @@
 # printj
 
-[![Python: 3.6](https://img.shields.io/badge/Python-3.6-blue.svg)](#)
-[![Build Status](https://travis-ci.org/GeorgiosGoniotakis/python-hierarchy.svg?branch=master)](https://github.com/Jitesh17/printj)
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+![Build Status](https://github.com/jitesh17/printj/actions/workflows/python-publish.yml/badge.svg)
 [![license: MIT](https://img.shields.io/badge/license-MIT-orange.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -17,17 +17,11 @@ Print log info and color text, speak text and helps debugging.
 pip install printj
 ```
 
-### Method 2
-
-```python
-pip install https://github.com/jitesh17/printj/archive/master.zip
-```
-
-### Method 3: Git clone
+### Method 2: Git clone
 
 ```python
 git clone https://github.com/jitesh17/printj.git
-cd prinj
+cd printj
 pip install -e .
 ```
 
@@ -41,6 +35,7 @@ pip install -e .
     printj.red('YOUR TEXT')
     printj.bold('YOUR TEXT')
     printj.blue.italic_on_yellow('YOUR TEXT')
+    printj.say('YOUR TEXT')  # It will convert text to speech
     ```
 - Output
     
